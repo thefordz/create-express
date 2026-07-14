@@ -2,6 +2,8 @@
 
 Scaffold an **Express 5 + TypeScript** API in seconds.
 
+> **Note:** this is a scaffolding tool — run it with `pnpm create` / `npm create` / `npx` as shown below. Do **not** `npm i @thefordz/create-express` into your project.
+
 ## Usage
 
 ```bash
