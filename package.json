@@ -1,0 +1,34 @@
+{
+  "name": "@thefordz/create-express",
+  "version": "0.1.0",
+  "description": "Scaffold an Express 5 + TypeScript API in seconds",
+  "type": "module",
+  "bin": {
+    "create-express": "index.js"
+  },
+  "files": [
+    "index.js",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "starter",
+    "template",
+    "scaffold",
+    "create"
+  ],
+  "author": "thefordz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thefordz/create-express.git"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "picocolors": "^1.1.1"
+  }
+}
