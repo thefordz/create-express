@@ -1,6 +1,6 @@
 # express-ts-starter
 
-Express 5 + TypeScript API, scaffolded with [@thefordz/create-express](https://www.npmjs.com/package/@thefordz/create-express).
+Express 5 + TypeScript API, scaffolded with [create-expresso](https://www.npmjs.com/package/create-expresso).
 
 ## Getting started
 

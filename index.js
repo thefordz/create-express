@@ -54,10 +54,11 @@ const argv = process.argv.slice(2);
 
 if (argv.includes("-h") || argv.includes("--help")) {
   console.log(`
-${pc.bold("create-express")} — Express 5 + TypeScript starter
+${pc.bold("create-expresso")} — Express 5 + TypeScript starter ☕
 
 Usage:
-  pnpm create @thefordz/express [project-name] [options]
+  pnpm create expresso [project-name] [options]
+  npx create-expresso [project-name] [options]
 
 Options:
   --no-install   Skip dependency installation
@@ -77,7 +78,7 @@ if (argv.includes("-v") || argv.includes("--version")) {
 
 console.log();
 p.intro(
-  `${pc.bgCyan(pc.black(" create-express "))} ${pc.dim("Express 5 + TypeScript starter")}`,
+  `${pc.bgCyan(pc.black(" create-expresso ☕ "))} ${pc.dim("Express 5 + TypeScript starter")}`,
 );
 
 // pnpm/npm may pass flags through (e.g. `npm create foo -- --flag`); only take the first non-flag arg

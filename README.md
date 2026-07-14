@@ -1,31 +1,33 @@
-# @thefordz/create-express
+# create-expresso ☕
 
-Scaffold an **Express 5 + TypeScript** API in seconds.
+Scaffold an **Express 5 + TypeScript** API in seconds — like a shot of espresso.
 
-> **Note:** this is a scaffolding tool — run it with `pnpm create` / `npm create` / `npx` as shown below. Do **not** `npm i @thefordz/create-express` into your project.
+> **Note:** this is a scaffolding tool — run it with `pnpm create` / `npm create` / `npx` as shown below. Do **not** `npm i create-expresso` into your project.
 
 ## Usage
 
 ```bash
 # pnpm
-pnpm create @thefordz/express my-api
+pnpm create expresso my-api
 
 # npm
-npm create @thefordz/express@latest my-api
+npm create expresso@latest my-api
 
 # bun
-bun create @thefordz/express my-api
+bun create expresso my-api
 
 # or run the bin directly
-npx @thefordz/create-express my-api
+npx create-expresso my-api
 ```
+
+Also published as [`@thefordz/create-express`](https://www.npmjs.com/package/@thefordz/create-express) — same tool, either name works.
 
 Omit the project name to get an interactive prompt. Use `.` to scaffold into the current directory.
 
 Dependencies are installed automatically with the same package manager you ran the command with (pnpm → pnpm, npm → npm, bun → bun). Pass `--no-install` to skip:
 
 ```bash
-pnpm create @thefordz/express my-api --no-install
+pnpm create expresso my-api --no-install
 ```
 
 ## What you get
