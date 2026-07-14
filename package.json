@@ -1,6 +1,6 @@
 {
   "name": "@thefordz/create-express",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold an Express 5 + TypeScript API in seconds",
   "type": "module",
   "bin": {
